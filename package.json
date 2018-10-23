@@ -78,7 +78,7 @@
     "test": "torch --compile --renderer --recursive ./test/unit",
     "test-bug": "torch --compile --renderer --recursive ./test/bug",
     "test-bug-live": "torch --compile --interactive --recursive ./test/bug",
-    "test-live": "torch --compile --interactive --recursive ./test/unit",
+    "test-live": "torch --compile --interactive --recursive ./test/unit/debug-spec.js",
     "watch": "webpack --config webpack-dev.config.js"
   },
   "pre-commit": {
